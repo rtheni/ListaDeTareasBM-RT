@@ -1,7 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
-    min-height:
 }
 header, footer{
     padding-top: 50px;
@@ -10,7 +9,6 @@ header, footer{
     text-align: center;
 }
 li{
-    list-style: square;
     margin-top: 5px;
 }
 #mainContainer{
@@ -25,19 +23,25 @@ li{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+#mainPAviso{
+    margin-top: 3px;
+    margin-left: 8px;
+    font-size: 12px;
+}
 #headerTitle{
     margin-top: 0;
 }
 #addTaskMainListNom{
     margin-top: 8px;
-    margin-left: 8px;
     height: 25px;
-    width: 80%;
+    margin-left: 5px;
+    width: 98%;
 }
 #addTaskMainListBtnAcc{
     margin-top: 8px;
     height: 31px;
-    width: 17%;
+    margin-left: 5px;
+    width: 99%;
 }
 #mainContainer{
     border: 1px gray solid;
